@@ -20,6 +20,7 @@ While adding the beforeEach hook scenerio run to my e2e file in support.
 
 ## POSSIBLE ERROR AND RESOLLUTION
 
-> If Chrome and Edge does not work on cypress launchpad/Test Runner
-> Open cypress test runner > Go to File -> View App Data > Delete everything in here > Close cypress and open it up again
+If Chrome and Edge does not work on cypress launchpad/Test Runner.
+
+Open cypress test runner > Go to File -> View App Data > Delete everything in here > Close cypress and open it up again
  
