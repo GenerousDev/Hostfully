@@ -35,3 +35,36 @@
 //     }
 //   }
 // }
+
+Cypress.Commands.add('insertAText', (field, text)=>{
+    cy.get(field).should('be.visible').type(text)
+})
+
+Cypress.Commands.add('clickAnElement', (element)=>{
+    cy.get(element).should('be.visible').click()
+})
+
+Cypress.Commands.add('elementIsPresent', (element)=>{
+    cy.get(element).should('be.visible').and('exist')
+})
+
+Cypress.Commands.add('elementTextIsPresent', (element, text)=>{
+    cy.get(element).should('be.visible').and('exist').invoke('text').then((val)=>{
+        expect(val).to.include(text)
+    })
+})
+
+Cypress.Commands.add('selectValue', (element, value)=>{
+    cy.get(element).should('be.visible').select(value)
+})
+
+declare namespace Cypress
+{
+    interface Chainable {
+        insertAText(field, text: string): void
+        clickAnElement(element: string): void
+        elementIsPresent(element: string): void
+        selectValue(element, value: string): void
+        elementTextIsPresent(element, text: string): void
+    }
+}
