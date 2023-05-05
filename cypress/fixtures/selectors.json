@@ -1,0 +1,10 @@
+{
+  "createCompRecord": "#add",
+  "computerName": "#name",
+  "yearIntroducedField": "#introduced",
+  "yearDiscontinuedField": "#discontinued",
+  "companyField": "#company",
+  "createComputer": "[value=\"Create this computer\"]",
+  "alertMessage": "[class=\"alert-message warning\"]",
+  "errorMessage": ".help-inline"
+}
