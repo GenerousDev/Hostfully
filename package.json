@@ -1,0 +1,25 @@
+{
+  "name": "hostfully",
+  "version": "1.0.0",
+  "description": "Hostfully QA Engineer Cypress exercise ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GenerousDev/Hostfully.git"
+  },
+  "author": "Abubakar Abdullahi",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^17.0.0",
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "cypress": "^12.11.0",
+    "typescript": "^5.0.4"
+  },
+  "bugs": {
+    "url": "https://github.com/GenerousDev/Hostfully/issues"
+  },
+  "homepage": "https://github.com/GenerousDev/Hostfully#readme"
+}
